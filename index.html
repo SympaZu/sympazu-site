@@ -10,30 +10,36 @@ body{
 margin:0;
 font-family:Arial,sans-serif;
 background:#111;
-color:white;
+color:#fff;
 text-align:center;
 }
 
 header{
 background:#c40000;
-padding:40px;
+padding:40px 20px;
+}
+
+header img{
+width:180px;
+border-radius:50%;
 }
 
 h1{
-font-size:48px;
-margin:0;
+margin:20px 0 10px;
+font-size:50px;
 }
 
-h2{
+p{
+font-size:22px;
 color:#ffd700;
 }
 
 .btn{
 display:inline-block;
-padding:15px 30px;
 margin:10px;
+padding:15px 30px;
 background:#ffd700;
-color:black;
+color:#000;
 text-decoration:none;
 font-weight:bold;
 border-radius:10px;
@@ -43,10 +49,21 @@ section{
 padding:40px 20px;
 }
 
-footer{
-background:#222;
+.galerie{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 padding:20px;
-margin-top:30px;
+}
+
+.galerie img{
+width:100%;
+border-radius:15px;
+}
+
+footer{
+background:#000;
+padding:30px;
 }
 </style>
 
@@ -56,32 +73,55 @@ margin-top:30px;
 
 <header>
 
+<img src="imagini/logo.png">
+
 <h1>SYMPA ZU</h1>
 
-<h2>„Suntem pe gustul tău, cel mai bun!”</h2>
+<p>Suntem pe gustul tău, cei mai buni!</p>
 
 <a class="btn" href="tel:0746423141">📞 Sună acum</a>
 
-<a class="btn" href="#">🍔 Vezi meniul</a>
+<a class="btn" href="https://wa.me/40746423141">💬 WhatsApp</a>
 
 </header>
 
 <section>
 
-<h2>📍 Unde ne găsești?</h2>
+<h2>Meniul nostru</h2>
 
-<p>Nr. 590, Șieu, Maramureș</p>
+<div class="galerie">
 
-<h2>☎ 0746 423 141</h2>
+<img src="imagini/burger.jpg">
+
+<img src="imagini/pizza.jpg">
+
+<img src="imagini/coaste.jpg">
+
+<img src="imagini/papanasi.jpg">
+
+<img src="imagini/platou.jpg">
+
+<img src="imagini/restaurant.jpg">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Unde ne găsești?</h2>
+
+<p>📍 Nr.590 Șieu, Maramureș</p>
+
+<p>☎️ 0746 423 141</p>
 
 </section>
 
 <footer>
 
-<p>© 2026 Sympa Zu Fast Food</p>
+© 2026 Sympa Zu Fast Food
 
 </footer>
 
 </body>
-
 </html>
