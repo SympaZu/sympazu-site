@@ -6,6 +6,25 @@
 <title>Sympa Zu</title>
 
 <style>
+    .accordion{
+  background:#c40000;
+  color:white;
+  cursor:pointer;
+  padding:15px;
+  width:100%;
+  border:none;
+  text-align:left;
+  font-size:20px;
+  margin-top:10px;
+  border-radius:8px;
+}
+
+.panel{
+  display:none;
+  background:#222;
+  padding:15px;
+  border-radius:0 0 8px 8px;
+}
 body{
 margin:0;
 font-family:Arial,sans-serif;
@@ -137,7 +156,16 @@ padding:30px;
   <li>Cartofi Sympa Gourmand — 30 RON</li>
 </ul>
 
-    <h3>🍔 Burgeri</h3>
+<button class="accordion">🍔 Burgeri</button>
+<div class="panel">
+<ul>
+<li>Burger Vita — 35 RON</li>
+<li>Burger Pui — 35 RON</li>
+<li>Burger Cheesy — 45 RON</li>
+<li>Burger Vege — 35 RON</li>
+<li>Burger Creveți — 40 RON</li>
+</ul>
+</div><h3>🍔 Burgeri</h3>
     <ul>
         <li>Burger Vita – 35 RON</li>
         <li>Burger Pui – 35 RON</li>
@@ -146,7 +174,8 @@ padding:30px;
         <li>Burger Creveți – 40 RON</li>
     </ul>
 
-    <h3>🍕 Pizza</h3>
+    <button class="accordion">🍕 Pizza/button>
+<div class="panel">h3>🍕 Pizza</h3>
     <ul>
         <li>Sympa – 35 RON</li>
         <li>Regina – 35 RON</li>
@@ -155,7 +184,8 @@ padding:30px;
         <li>Vegetariană – 35 RON</li>
         <li>Sweet Dubai – 35 RON</li>
     </ul>
-    <h3>🥗 Salate</h3>
+<button class="accordion">🥗 Salate/button>
+<div class="panel">h3><h3>🥗 Salate</h3>
 <ul>
   <li>Salată Asortată — 5 RON</li>
   <li>Salata Sympa — 30 RON</li>
@@ -163,7 +193,8 @@ padding:30px;
   <li>Salata Kebab — 30 RON</li>
 </ul>
 
-<h3>🍗 Meniu</h3>
+<button class="accordion">🍗 Meniu/button>
+<div class="panel">h3><h3>🍗 Meniu</h3>
 <ul>
   <li>Crispy Pui — 36 RON</li>
   <li>Aripioare Picante — 36 RON</li>
@@ -184,7 +215,8 @@ padding:30px;
   <li>Rib Eye Steak — 129 RON</li>
 </ul>
 
-<h3>🍽️ Platouri</h3>
+<button class="accordion">🍽️ Platouri/button>
+<div class="panel">h3><h3>h3>🍽️ Platouri</h3>
 <ul>
   <li>Platou Șieu — 280 RON</li>
   <li>Platou Duo — 120 RON</li>
@@ -197,7 +229,8 @@ padding:30px;
   <li>Platou Fructe — 150 RON</li>
 </ul>
 
-<h3>🍰 Desert</h3>
+<button class="accordion">🍰 Desert/button>
+<div class="panel">h3><h3>h3>h3>🍰 Desert</h3>
 <ul>
   <li>Înghețată Glob — 5 RON</li>
   <li>Clătite Gem/ciocolată — 5 RON</li>
@@ -207,7 +240,8 @@ padding:30px;
   <li>Lava Cake cu Înghețată și Clătită — 28 RON</li>
   <li>Kunefe Fistic — 22 RON</li>
 </ul>
-<h3>🥤 Băuturi răcoritoare</h3>
+<button class="accordion">🥤 Băuturi răcoritoare/button>
+<div class="panel">h3><h3>h3>h3>🥤 Băuturi răcoritoare</h3>
 <ul>
   <li>Cola 0.25L — 9 RON</li>
   <li>Cola Zero 0.25L — 9 RON</li>
@@ -222,7 +256,8 @@ padding:30px;
   <li>Ayran 0.25L — 6 RON</li>
 </ul>
 
-<h3>🍺 Bere</h3>
+<button class="accordion">🍺 Bere/button>
+<div class="panel">h3><h3>h3>h3>🍺 Bere</h3>
 <ul>
   <li>Caraiman 0.33L — 8.5 RON</li>
   <li>Bergenbier 0.33L — 8.5 RON</li>
@@ -236,7 +271,8 @@ padding:30px;
   <li>Bere Halba 0.40L — 7 RON</li>
 </ul>
 
-<h3>🍷 Vin & Tărie</h3>
+<button class="accordion">🍷 Vin & Tărie/button>
+<div class="panel">h3><h3>🍺h3>🍷 Vin & Tărie</h3>
 <ul>
   <li>Finlandia (50 ml) — 13 RON</li>
   <li>Jack Daniel's (50 ml) — 13 RON</li>
