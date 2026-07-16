@@ -6,90 +6,69 @@
 <title>Sympa Zu</title>
 
 <style>
-    .accordion{
-  background:#c40000;
-  color:white;
-  cursor:pointer;
-  padding:15px;
-  width:100%;
-  border:none;
-  text-align:left;
-  font-size:20px;
-  margin-top:10px;
-  border-radius:8px;
-}
-
-.panel{
-  display:none;
-  background:#222;
-  padding:15px;
-  border-radius:0 0 8px 8px;
-}
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#111;
-color:#fff;
-text-align:center;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:#fff;
 }
 
 header{
-background:#c40000;
-padding:40px 20px;
+    background:#c40000;
+    text-align:center;
+    padding:40px 20px;
 }
 
 header img{
-width:180px;
-border-radius:50%;
+    width:140px;
+    border-radius:50%;
 }
 
 h1{
-margin:20px 0 10px;
-font-size:50px;
-}
-
-p{
-font-size:22px;
-color:#ffd700;
+    margin:15px 0 5px;
 }
 
 .btn{
-display:inline-block;
-margin:10px;
-padding:15px 30px;
-background:#ffd700;
-color:#000;
-text-decoration:none;
-font-weight:bold;
-border-radius:10px;
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#ffd400;
+    color:#000;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
 }
 
 section{
-padding:40px 20px;
+    max-width:1000px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+h2{
+    color:#ffd400;
 }
 
 .galerie{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
 }
 
 .galerie img{
-width:100%;
-border-radius:15px;
+    width:100%;
+    border-radius:15px;
 }
 
 footer{
-background:#000;
-padding:30px;
+    background:#000;
+    text-align:center;
+    padding:30px;
 }
 </style>
+</head>
 
-<link rel="stylesheet" 
-    href="style.css">
-
- <body>
+<body>
 
 <header>
 
@@ -107,223 +86,25 @@ padding:30px;
 
 <section>
 
-<h2>Meniul nostru</h2>
+<h2>🍔 Meniul nostru</h2>
 
 <div class="galerie">
 
-<img src="imagini/burgercreveti).jpeg">
-
-<img src="imagini/tacos.jpeg">
-
-<img src="imagini/grec.jpeg">
-
-<img src="imagini/frittomisto.jpeg">
-
-<img src="imagini/gnocchi).jpeg">
-
+<img src="imagini/burgercreveti.jpeg">
 <img src="imagini/shaorma.jpeg">
-<section>
-    <h2>📋 Meniu complet</h2>
-
-    <button class="accordion">🌯 Shaorma/button>
-<div class="panel">
-    <ul>
-        <li>Shaorma Lipie – 32 RON</li>
-        <li>Shaorma Farfurie – 35 RON</li>
-        <li>Farfurie Vege – 35 RON</li>
-    </ul>
-
-<button class="accordion">🌮 O'Tacos/button>
-<div class="panel">
-    <ul>
-        <li>O'Tacos Sympa – 33 RON</li>
-        <li>O'Tacos Crispy – 33 RON</li>
-        <li>O'Tacos Vege – 33 RON</li>
-        <li>O'Tacos Cheesy – 43 RON</li>
-    </ul>
-<button class="accordion">🍟 Garnituri</button>
-<div class="panel">
-<ul>
-  <li>Panini — 28 RON</li>
-  <li>Grec — 32 RON</li>
-  <li>Grec Roll — 32 RON</li>
-</ul>
-
-<button class="accordion">🍟 Garnituri</button>
-<div class="panel">
-<ul>
-  <li>Cartofi prăjiți — 8 RON</li>
-  <li>Cartofi cu mozzarella — 11 RON</li>
-  <li>Cartofi rondele — 10 RON</li>
-  <li>Cartofi rondele cu mozzarella — 13 RON</li>
-  <li>Cartofi Sympa Cheesy & Onion — 15 RON</li>
-  <li>Cartofi Sympa Gourmand — 30 RON</li>
-</ul>
-
-<button class="accordion">🍔 Burgeri</button>
-<div class="panel">
-<ul>
-<li>Burger Vita — 35 RON</li>
-<li>Burger Pui — 35 RON</li>
-<li>Burger Cheesy — 45 RON</li>
-<li>Burger Vege — 35 RON</li>
-<li>Burger Creveți — 40 RON</li>
-</ul>
-</div><h3>🍔 Burgeri</h3>
-    <ul>
-        <li>Burger Vita – 35 RON</li>
-        <li>Burger Pui – 35 RON</li>
-        <li>Burger Cheesy – 45 RON</li>
-        <li>Burger Vege – 35 RON</li>
-        <li>Burger Creveți – 40 RON</li>
-    </ul>
-
-    <button class="accordion">🍕 Pizza/button>
-<div class="panel">
-    <ul>
-        <li>Sympa – 35 RON</li>
-        <li>Regina – 35 RON</li>
-        <li>Crispy Garlic BBQ – 35 RON</li>
-        <li>Margherita – 30 RON</li>
-        <li>Vegetariană – 35 RON</li>
-        <li>Sweet Dubai – 35 RON</li>
-    </ul>
-<button class="accordion">🥗 Salate/button>
-<div class="panel">
-<ul>
-  <li>Salată Asortată — 5 RON</li>
-  <li>Salata Sympa — 30 RON</li>
-  <li>Salata Crispy — 30 RON</li>
-  <li>Salata Kebab — 30 RON</li>
-</ul>
-
-<button class="accordion">🍗 Meniu/button>
-<div class="panel">
-<ul>
-  <li>Crispy Pui — 36 RON</li>
-  <li>Aripioare Picante — 36 RON</li>
-  <li>Family Box — 73 RON</li>
-</ul>
-
-<h3>🦐 Fructe de mare</h3>
-<ul>
-  <li>Fritto Misto — 139 RON</li>
-  <li>Caracatiță (1 buc.) — 120 RON</li>
-  <li>Caracatiță (2 buc.) — 160 RON</li>
-</ul>
-
-<h3>🥩 Grill / Cuptor</h3>
-<ul>
-  <li>Mici — 32 RON</li>
-  <li>Ceafă de porc — 40 RON</li>
-  <li>Rib Eye Steak — 129 RON</li>
-</ul>
-
-<button class="accordion">🍽️ Platouri/button>
-<div class="panel">
-<ul>
-  <li>Platou Șieu — 280 RON</li>
-  <li>Platou Duo — 120 RON</li>
-  <li>15 Mici & Cartofi — 120 RON</li>
-  <li>Mini Burgers & Crispy — 160 RON</li>
-  <li>Sympa & Seafood — 350 RON</li>
-  <li>Sympa Grill 6 — 350 RON</li>
-  <li>Sympa & Cartofi 6 — 450 RON</li>
-  <li>Sympa & Fruits — 600 RON</li>
-  <li>Platou Fructe — 150 RON</li>
-</ul>
-
-<button class="accordion">🍰 Desert/button>
-<div class="panel">
-<ul>
-  <li>Înghețată Glob — 5 RON</li>
-  <li>Clătite Gem/ciocolată — 5 RON</li>
-  <li>Papanași Mici — 20 RON</li>
-  <li>Papanași Mari — 28 RON</li>
-  <li>Lava Cake cu Înghețată — 23 RON</li>
-  <li>Lava Cake cu Înghețată și Clătită — 28 RON</li>
-  <li>Kunefe Fistic — 22 RON</li>
-</ul>
-<button class="accordion">🥤 Băuturi răcoritoare/button>
-<div class="panel">
-<ul>
-  <li>Cola 0.25L — 9 RON</li>
-  <li>Cola Zero 0.25L — 9 RON</li>
-  <li>Fanta 0.25L — 9 RON</li>
-  <li>Sprite 0.25L — 9 RON</li>
-  <li>Schweppes 0.25L — 9.5 RON</li>
-  <li>Fuze Tea 0.25L — 9.5 RON</li>
-  <li>Cappy Nectar 0.25L — 9.5 RON</li>
-  <li>Burn 0.25L — 12 RON</li>
-  <li>Apă minerală plată 0.5L — 6 RON</li>
-  <li>Apă minerală carbogazoasă 0.5L — 6 RON</li>
-  <li>Ayran 0.25L — 6 RON</li>
-</ul>
-
-<button class="accordion">🍺 Bere/button>
-<div class="panel">
-<ul>
-  <li>Caraiman 0.33L — 8.5 RON</li>
-  <li>Bergenbier 0.33L — 8.5 RON</li>
-  <li>Madri 0.33L — 8.5 RON</li>
-  <li>Beck's 0.33L — 10 RON</li>
-  <li>Staropramen 0.33L — 10 RON</li>
-  <li>Stella Artois 0.33L — 10 RON</li>
-  <li>Corona 0.33L — 13 RON</li>
-  <li>Leffe 0.33L — 15 RON</li>
-  <li>Bere Draft 0.33L — 6 RON</li>
-  <li>Bere Halba 0.40L — 7 RON</li>
-</ul>
-
-<button class="accordion">🍷 Vin & Tărie/button>
-<div class="panel">
-<ul>
-  <li>Finlandia (50 ml) — 13 RON</li>
-  <li>Jack Daniel's (50 ml) — 13 RON</li>
-  <li>Chivas Regal XII (50 ml) — 20 RON</li>
-  <li>Jidvei (50 ml) — 13 RON</li>
-  <li>Alexandrion 5★ (50 ml) — 13 RON</li>
-  <li>Vecchia Romagna (50 ml) — 13 RON</li>
-  <li>Vin la pahar (150 ml) — 18 RON</li>
-</ul>
-
-<h3>☕ Băuturi calde</h3>
-<ul>
-  <li>Espresso — 6 RON</li>
-  <li>Caffe Latte — 10 RON</li>
-  <li>Cappuccino — 10 RON</li>
-  <li>Ciocolată caldă — 10 RON</li>
-</ul>    
-</section>
+<img src="imagini/tacos.jpeg">
+<img src="imagini/pizza.jpeg">
+<img src="imagini/grec.jpeg">
+<img src="imagini/frittomisto.jpeg">
+<img src="imagini/gnocchi.jpeg">
 
 </div>
-
-</section>
-    <h2>🕒 Program</h2>
-    <p><strong>Luni - Sâmbătă:</strong> 12:00 - 03:00</p>
-    <p><strong>Duminică:</strong> 13:00 - 03:00</p>
-</section>
-    <section>   
-    <h2>🚚 Livrăm acasă</h2>
-    <p>📍 Livrăm în Șieu și împrejurimi.</p>
-    <p>💰 Comandă minimă: <strong>70 lei</strong></p>
-    <p>🕐 Program livrări: <strong>13:00 – 00:00</strong></p>
-</section>
-</section>
-
-<section>
-
-<h2>Unde ne găsești?</h2>
-
-<p>📍 Nr.590 Șieu, Maramureș</p>
-
-<p>☎️ 0746 423 141</p>
 
 </section>
 
 <footer>
 
-© 2026 Sympa Zu Fast Food
+<p>© 2026 Sympa Zu Fast Food</p>
 
 </footer>
 
