@@ -120,3 +120,165 @@ margin-top:30px;
 </div>
 
 </section>
+  <section>
+
+<h2>📋 Meniu complet</h2>
+
+<button class="acordeon">🥙 Shaorma</button>
+<div class="panou">
+<ul>
+<li>Shaorma Lipie – 32 RON</li>
+<li>Shaorma Farfurie – 35 RON</li>
+<li>Farfurie Vege – 35 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🌮 O'Tacos</button>
+<div class="panou">
+<ul>
+<li>O'Tacos Sympa – 33 RON</li>
+<li>O'Tacos Crispy – 33 RON</li>
+<li>O'Tacos Vegetarian – 33 RON</li>
+<li>O'Tacos Cheesy – 43 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🍔 Burgeri</button>
+<div class="panou">
+<ul>
+<li>Burger Vită – 35 RON</li>
+<li>Burger Pui – 35 RON</li>
+<li>Burger cu Brânză – 45 RON</li>
+<li>Burger Vegetarian – 35 RON</li>
+<li>Burger Creveți – 40 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🍕 Pizza</button>
+<div class="panou">
+<ul>
+<li>Sympa – 35 RON</li>
+<li>Regina – 35 RON</li>
+<li>Margherita – 30 RON</li>
+<li>BBQ – 35 RON</li>
+<li>Vegetariană – 35 RON</li>
+<li>Sweet Dubai – 35 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🍟 Garnituri</button>
+<div class="panou">
+<ul>
+<li>Cartofi prăjiți – 8 RON</li>
+<li>Cartofi cu mozzarella – 11 RON</li>
+<li>Rondele cartofi – 10 RON</li>
+<li>Cartofi Sympa Cheesy – 15 RON</li>
+<li>Cartofi Sympa Gourmand – 30 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🥗 Salate</button>
+<div class="panou">
+<ul>
+<li>Salată Asortată – 5 RON</li>
+<li>Salată Sympa – 30 RON</li>
+<li>Salată Crocantă – 30 RON</li>
+<li>Salată Kebab – 30 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🍗 Meniu</button>
+<div class="panou">
+<ul>
+<li>Pui Crocant – 36 RON</li>
+<li>Aripioare Picante – 36 RON</li>
+<li>Cutie Familie – 73 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🦐 Fructe de mare</button>
+<div class="panou">
+<ul>
+<li>Fritto Misto – 139 RON</li>
+<li>Caracatiță (1 buc.) – 120 RON</li>
+<li>Caracatiță (2 buc.) – 160 RON</li>
+</ul>
+</div>
+
+<button class="acordeon">🥤 Băuturi</button>
+<div class="panou">
+<ul>
+<li>Coca-Cola 0.5L – 8 RON</li>
+<li>Fanta 0.5L – 8 RON</li>
+<li>Sprite 0.5L – 8 RON</li>
+<li>Apă plată – 5 RON</li>
+<li>Apă minerală – 5 RON</li>
+<li>Ayran – 7 RON</li>
+<li>Red Bull – 12 RON</li>
+</ul>
+</div>
+
+</section>
+  <section>
+
+<h2>🚚 Livrare</h2>
+
+<p>📍 Livrăm în Șieu și împrejurimi.</p>
+
+<p>💰 Comandă minimă: 70 RON</p>
+
+<p>🕐 Program livrare: 13:00 - 00:00</p>
+
+</section>
+
+<section>
+
+<h2>🕒 Program</h2>
+
+<p>Luni - Sâmbătă: 12:00 - 03:00</p>
+
+<p>Duminică: 13:00 - 03:00</p>
+
+</section>
+
+<footer>
+
+<p>📍 Șieu, Maramureș</p>
+
+<p>📞 0746 423 141</p>
+
+<p>© 2026 Sympa Zu Fast Food</p>
+
+</footer>
+
+<script>
+
+const acc=document.querySelectorAll(".acordeon");
+
+acc.forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+btn.classList.toggle("activ");
+
+const panou=btn.nextElementSibling;
+
+if(panou.style.display==="block"){
+
+panou.style.display="none";
+
+}else{
+
+panou.style.display="block";
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>
