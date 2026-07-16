@@ -7,17 +7,16 @@
 <title>Sympa Zu Fast Food</title>
 
 <style>
-
 body{
 margin:0;
 font-family:Arial,sans-serif;
 background:#111;
-color:white;
+color:#fff;
 }
 
 header{
 background:#b30000;
-padding:40px 20px;
+padding:30px;
 text-align:center;
 }
 
@@ -27,15 +26,15 @@ border-radius:50%;
 }
 
 h1{
-margin:15px 0 5px;
+margin:10px 0;
 }
 
 .btn{
 display:inline-block;
-background:red;
+background:#e60000;
 color:white;
-padding:12px 20px;
-margin:10px;
+padding:12px 22px;
+margin:8px;
 border-radius:10px;
 text-decoration:none;
 font-weight:bold;
@@ -43,11 +42,13 @@ font-weight:bold;
 
 section{
 padding:25px;
+max-width:1100px;
+margin:auto;
 }
 
 .galerie{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:15px;
 }
 
@@ -57,32 +58,40 @@ border-radius:15px;
 }
 
 .acordeon{
+width:100%;
 background:#c40000;
 color:white;
-cursor:pointer;
 padding:18px;
-width:100%;
-border:none;
-text-align:left;
-font-size:20px;
-border-radius:10px;
 margin-top:10px;
+font-size:20px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+text-align:left;
 }
 
 .panou{
 display:none;
-padding:15px;
 background:#222;
+padding:15px;
 border-radius:10px;
+}
+
+.panou ul{
+margin:0;
+padding-left:20px;
+}
+
+.panou li{
+margin:8px 0;
 }
 
 footer{
 background:#000;
-text-align:center;
 padding:30px;
-margin-top:30px;
+text-align:center;
+margin-top:40px;
 }
-
 </style>
 
 </head>
@@ -91,11 +100,11 @@ margin-top:30px;
 
 <header>
 
-<img src="imagini/logo.png">
+<img src="imagini/logo.png" alt="Sympa Zu">
 
-<h1>SYMPA ZU</h1>
+<h1>SYMPA ZU FAST FOOD</h1>
 
-<p>Fast Food • Șieu • Livrare la domiciliu</p>
+<p>🍔 Gustul care te face să revii!</p>
 
 <a class="btn" href="tel:0746423141">📞 Sună acum</a>
 
@@ -105,180 +114,15 @@ margin-top:30px;
 
 <section>
 
-<h2>📸 Meniul nostru</h2>
+<h2>📸 Galeria noastră</h2>
 
 <div class="galerie">
 
-<img src="imagini/burgercreveti.jpeg">
-
-<img src="imagini/tacos.jpeg">
-
 <img src="imagini/shaorma.jpeg">
-
+<img src="imagini/tacos.jpeg">
+<img src="imagini/burger.jpeg">
 <img src="imagini/pizza.jpeg">
 
 </div>
 
 </section>
-  <section>
-
-<h2>📋 Meniu complet</h2>
-
-<button class="acordeon">🥙 Shaorma</button>
-<div class="panou">
-<ul>
-<li>Shaorma Lipie – 32 RON</li>
-<li>Shaorma Farfurie – 35 RON</li>
-<li>Farfurie Vege – 35 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🌮 O'Tacos</button>
-<div class="panou">
-<ul>
-<li>O'Tacos Sympa – 33 RON</li>
-<li>O'Tacos Crispy – 33 RON</li>
-<li>O'Tacos Vegetarian – 33 RON</li>
-<li>O'Tacos Cheesy – 43 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🍔 Burgeri</button>
-<div class="panou">
-<ul>
-<li>Burger Vită – 35 RON</li>
-<li>Burger Pui – 35 RON</li>
-<li>Burger cu Brânză – 45 RON</li>
-<li>Burger Vegetarian – 35 RON</li>
-<li>Burger Creveți – 40 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🍕 Pizza</button>
-<div class="panou">
-<ul>
-<li>Sympa – 35 RON</li>
-<li>Regina – 35 RON</li>
-<li>Margherita – 30 RON</li>
-<li>BBQ – 35 RON</li>
-<li>Vegetariană – 35 RON</li>
-<li>Sweet Dubai – 35 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🍟 Garnituri</button>
-<div class="panou">
-<ul>
-<li>Cartofi prăjiți – 8 RON</li>
-<li>Cartofi cu mozzarella – 11 RON</li>
-<li>Rondele cartofi – 10 RON</li>
-<li>Cartofi Sympa Cheesy – 15 RON</li>
-<li>Cartofi Sympa Gourmand – 30 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🥗 Salate</button>
-<div class="panou">
-<ul>
-<li>Salată Asortată – 5 RON</li>
-<li>Salată Sympa – 30 RON</li>
-<li>Salată Crocantă – 30 RON</li>
-<li>Salată Kebab – 30 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🍗 Meniu</button>
-<div class="panou">
-<ul>
-<li>Pui Crocant – 36 RON</li>
-<li>Aripioare Picante – 36 RON</li>
-<li>Cutie Familie – 73 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🦐 Fructe de mare</button>
-<div class="panou">
-<ul>
-<li>Fritto Misto – 139 RON</li>
-<li>Caracatiță (1 buc.) – 120 RON</li>
-<li>Caracatiță (2 buc.) – 160 RON</li>
-</ul>
-</div>
-
-<button class="acordeon">🥤 Băuturi</button>
-<div class="panou">
-<ul>
-<li>Coca-Cola 0.5L – 8 RON</li>
-<li>Fanta 0.5L – 8 RON</li>
-<li>Sprite 0.5L – 8 RON</li>
-<li>Apă plată – 5 RON</li>
-<li>Apă minerală – 5 RON</li>
-<li>Ayran – 7 RON</li>
-<li>Red Bull – 12 RON</li>
-</ul>
-</div>
-
-</section>
-  <section>
-
-<h2>🚚 Livrare</h2>
-
-<p>📍 Livrăm în Șieu și împrejurimi.</p>
-
-<p>💰 Comandă minimă: 70 RON</p>
-
-<p>🕐 Program livrare: 13:00 - 00:00</p>
-
-</section>
-
-<section>
-
-<h2>🕒 Program</h2>
-
-<p>Luni - Sâmbătă: 12:00 - 03:00</p>
-
-<p>Duminică: 13:00 - 03:00</p>
-
-</section>
-
-<footer>
-
-<p>📍 Șieu, Maramureș</p>
-
-<p>📞 0746 423 141</p>
-
-<p>© 2026 Sympa Zu Fast Food</p>
-
-</footer>
-
-<script>
-
-const acc=document.querySelectorAll(".acordeon");
-
-acc.forEach(btn=>{
-
-btn.addEventListener("click",()=>{
-
-btn.classList.toggle("activ");
-
-const panou=btn.nextElementSibling;
-
-if(panou.style.display==="block"){
-
-panou.style.display="none";
-
-}else{
-
-panou.style.display="block";
-
-}
-
-});
-
-});
-
-</script>
-
-</body>
-
-</html>
